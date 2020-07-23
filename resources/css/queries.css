@@ -13,7 +13,6 @@
     width: 220px;
     height: 150px;
   }
-
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -23,11 +22,16 @@
   }
   section {
     padding: 60px 0;
-  }  
+  }
 
   .main-nav {
     display: inline-block;
   }
+
+  .sticky-logo {
+    height: 40px;
+  }
+
   .long-copy {
     width: 80%;
     margin-left: 10%;
