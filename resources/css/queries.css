@@ -194,6 +194,9 @@
   section {
     padding: 25px 0;
   }
+  .btn-app img {
+    height: 30px;
+  }
 
   .contact-form {
     width: 100%;
