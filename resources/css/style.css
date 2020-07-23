@@ -24,6 +24,39 @@ body {
   overflow-x: hidden;
 }
 
+.loader {
+  border: 12px solid #eb0707;
+  border-radius: 50%;
+  border-top: 12px solid #e65b5b;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .clearfix {
   zoom: 1;
 }
@@ -258,7 +291,7 @@ header {
 }
 
 .mobile-nav-icon ion-icon {
-  font-size: 200%;  
+  font-size: 200%;
   color: #fff;
 }
 
@@ -274,13 +307,12 @@ header {
   z-index: 9999;
 }
 
-
 .sticky .main-nav {
   margin-top: 25px;
 }
 
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {  
+.sticky .main-nav li a:visited {
   color: #555;
   padding: 35px 0;
 }
